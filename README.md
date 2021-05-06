@@ -1,14 +1,19 @@
 # Milestone_project_1 
-## Personal Portifolio
+## Personal Portfolio
 ---
 
-  The main goal of this project is to share with potential customers and/or employers my knowledge and skills as a programmer.
-With that, they will be able to decide if I'm the sort of professional that they are looking for, for the project that they want to create.
+  The main goal of this project is to share with potential employers my knowledge and skills as a programmer. If the company that you're working for (or even your own company) needs a programmer, or if you would like to create a website for yourself, I can help you with that.
+  In my web portfolio, you can check my skills, my CV, all my social medias, and other projects that I've already done.
+  This whole project was designed and developed by myself. 
 
 
 ### UX/ UI:
 ---
-  * Here goes my wireframes and its explanation *
+  The first image (on the left) is a mockup of the **mobile layout**.  
+
+  The second image (on the right) is a mockup of the **desktop layout**.
+
+  You can easily recognize that the layout is slightly different from each other, exactly because of the responsivity and how the elements will behave depending on the user size's screen device.
  
 ![](https://github.com/RodrigoPalazon/milestone_project_1/blob/main/assets/images/mobile_wireframe.png "Mobile wireframe") ![Desktop wireframe](https://github.com/RodrigoPalazon/milestone_project_1/blob/main/assets/images/desktop_wireframe.png "Desktop wireframe")
 =======
@@ -61,7 +66,7 @@ With that, they will be able to decide if I'm the sort of professional that they
 ##### References, Snippets, Tips, and other helps:
 
     
-   1.README: 
+   1. README: 
       *[Code-Institute-Solutions/readme-template](https://github.com/Code-Institute-Solutions/readme-template)
       All this READ.md file used the above reference to be created before starting coding.
               
@@ -74,5 +79,9 @@ With that, they will be able to decide if I'm the sort of professional that they
       * [CSS3](https://www.w3schools.com/css/default.asp)
       * [Bootstrap4](https://www.w3schools.com/bootstrap4/default.asp)
       * [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2)
+
+   3. Layout and Structure inspiration:
+      Jack Tomaszewski - Full-Stack Software Engineer.
+      https://www.jtom.me
             
             
