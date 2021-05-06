@@ -59,11 +59,7 @@
  
 ### CREDITS: 
 ---
-##### Content:
-  *"Here goes all the texts, images, links, and its author plus detailed information that you used from other resources into your project. "*
-
-
-##### References, Snippets, Tips, and other helps:
+##### References, Snippets, Tips, Texts, Links and other helps:
 
     
    1. README: 
@@ -81,6 +77,7 @@
       * [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2)
 
    3. Layout and Structure inspiration:
+      
       Jack Tomaszewski - Full-Stack Software Engineer.
       https://www.jtom.me
             
