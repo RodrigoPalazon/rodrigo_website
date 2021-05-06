@@ -10,8 +10,8 @@ With that, they will be able to decide if I'm the sort of professional that they
 ---
   * Here goes my wireframes and its explanation *
  
-<<<<<<< HEAD
- <img src="https://github.com/RodrigoPalazon/Milestone_project_1111/blob/678ba74cefc9eb2021b36d5e8dae7925dc1412df/assets/images/mobile_wireframe.png">
+![](https://github.com/RodrigoPalazon/milestone_project_1/blob/main/assets/images/mobile_wireframe.png)
+ <!-- <img src="https://github.com/RodrigoPalazon/Milestone_project_1111/blob/678ba74cefc9eb2021b36d5e8dae7925dc1412df/assets/images/mobile_wireframe.png"> -->
 =======
  
  ### Features:
