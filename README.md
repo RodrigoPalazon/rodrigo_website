@@ -23,8 +23,7 @@
     * Feature 1 - shares with the users my knowledge and skills as a programmer.
     * Feature 2 - shares differents projects that I've done so far.
     * Feature 3 - shares the certificates that I've taken so far.
-    * Feature 4 - shares my social networks, and email address, doing the connection between me user and myself easier, 
-                  if desired.
+    * Feature 4 - shares my social networks, and email address, doing the connection between me user and myself easier, if desired.
  
  
  ### Technologies Used:
@@ -33,11 +32,9 @@
     
      **CSS3**: The project uses CSS3 to describes how HTML elements are to be displayed on screen, paper, or in other media.
          
-     **Bootstrap 4**: The project uses Bootstrap 4 to create a high-quality responsivity and ensure that the concept "Mobile first",
-                      will be implemented properly.
+     **Bootstrap 4**: The project uses Bootstrap 4 to create a high-quality responsivity and ensure that the concept "Mobile first", will be implemented properly.
     
-     **Font Awesome**: The project uses **Font Awesome** to place the icons that it offers just about anywhere using a style 
-                       prefix and the icon’s name.
+     **Font Awesome**: The project uses **Font Awesome** to place the icons that it offers just about anywhere using a style prefix and the icon’s name.
 
 ### Testing:
 ---
