@@ -39,8 +39,7 @@
 ### Testing:
 ---
      * "you should mention in this section how your project looks and works on different browsers and screen sizes." 
-                "You should also mention in this section any interesting bugs or problems you discovered during your testing, 
-                  even if you haven't addressed them yet."*
+        "You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet."*
 
 ##### Bugs discovered:
 
