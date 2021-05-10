@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #EED1E4;
 }
@@ -33,18 +39,18 @@ body{
 
 .navbar-dark .navbar-brand{
     position: absolute;
-width: 82px;
-height: 19px;
-left: 24px;
-top: 15px;
+    width: 82px;
+    height: 19px;
+    left: 24px;
+    top: 15px;
 
-font-family: Rakkas;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 27px;
+    font-family: Rakkas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
 
-color: #FFA5CB;
+    color: #FFA5CB;
 
 }
 
@@ -84,9 +90,27 @@ hr {
         /* end: ref  4. */
 
 
+ /* SECTION #personal_info----------------- */
+ 
+#personal_info .container-fluid .container{
+    background-color: rgba(23, 23, 23, 0.15);
+}
 
-        
+#face_photo{
+    width:auto;
+}
 
+#face_photo img{
+    width: 7em;
+    height: auto;
+    border: 3px solid #EED1E4;
+    border-radius: 50%;
+}
+
+#personal_info h1{
+    font-family: Rakkas;
+    font-size: 1.5em;
+}
 
 /* --- FOOTER ----------------------*/
 
@@ -107,7 +131,15 @@ footer .container-fluid{
 footer ul{
     color:#FFA5CB;
     width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
 }
+
+/* footer ul li{
+    list-style-type: none;
+} */
 
 footer ul li strong{
     font-size: 1.2em
