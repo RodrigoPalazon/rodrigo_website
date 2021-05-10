@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 
 *{
     padding: 0px;
@@ -91,9 +93,11 @@ hr {
 
 
  /* SECTION #personal_info----------------- */
- 
+
 #personal_info .container-fluid .container{
     background-color: rgba(23, 23, 23, 0.15);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
 }
 
 #face_photo{
@@ -112,6 +116,28 @@ hr {
     font-size: 1.5em;
 }
 
+#personal_info ul li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 1em;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#personal_info article .row:nth-child(2){
+    font-size: 0.8em;
+}
+
+#personal_info i{
+    color: rgb(80, 77, 77);
+}
+
+#personal_info .container-fluid .container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
 /* --- FOOTER ----------------------*/
 
 footer{
@@ -131,15 +157,7 @@ footer .container-fluid{
 footer ul{
     color:#FFA5CB;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
 }
-
-/* footer ul li{
-    list-style-type: none;
-} */
 
 footer ul li strong{
     font-size: 1.2em
