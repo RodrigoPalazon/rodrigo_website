@@ -4,6 +4,8 @@ body{
     background-color: #EED1E4;
 }
 
+/* -- NAVBAR MENU ----------------------    */
+
 .navbar-dark{
     background-color: #171717;
 }
@@ -16,7 +18,6 @@ body{
     line-height: 27px;
     text-align: center;
     color: #FFA5CB;
-    /* margin-right: 0.5em; */
     border-bottom: 1px solid #EED1E4;
 }
 
@@ -63,9 +64,12 @@ hr {
     border: none;
 }
 
+.navbar-brand img{
+    width: 5em;
+    margin-top: -0.7em;
+}
 
-
-        /* ref.   4. README.md */
+        /* ref.:   4. README.md */
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 203)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -77,4 +81,35 @@ hr {
 .custom-toggler.navbar-toggler .navbar-toggler-icon{
     color: #ffa5cb;
 }
-       /* end ref  4. */
+        /* end: ref  4. */
+
+
+
+        
+
+
+/* --- FOOTER ----------------------*/
+
+footer{
+    background-color: #171717;
+    height: auto;
+}
+
+footer a{
+    color:#FFA5CB;
+}
+
+footer .container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    color:#FFA5CB;
+    width: 100%;
+}
+
+footer ul li strong{
+    font-size: 1.2em
+}
+

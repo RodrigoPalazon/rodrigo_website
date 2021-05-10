@@ -72,15 +72,16 @@
       * [Bootstrap4](https://www.w3schools.com/bootstrap4/default.asp)
       * [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2)
       * [Google Fonts](https://fonts.google.com)
+      * [GIMP Photo Editor](https://www.gimp.org/)
 
    3. Layout and Structure inspiration:
       
       Jack Tomaszewski - Full-Stack Software Engineer.
       https://www.jtom.me
 
-   4.Toggle menu's style:
+   4. Toggle menu's style:
 
       https://www.codeply.com/go/4FdZGlPMNV
-       
-      Author: Carol Iatek https://github.com/iatek      
+      Author: Carol Iatek 
+      GitHub: https://github.com/iatek      
             
