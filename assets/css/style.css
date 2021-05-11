@@ -97,7 +97,11 @@ hr {
 #personal_info .container-fluid .container{
     background-color: rgba(23, 23, 23, 0.15);
     font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
     font-weight: bolder;
+=======
+    font-weight: 1000;
+>>>>>>> c0e297cf0d5381104d5e7b1114e1625d9562acb4
 }
 
 #face_photo{
@@ -131,13 +135,19 @@ hr {
 }
 
 #personal_info i{
+<<<<<<< HEAD
     color: rgb(58, 56, 56);
 }
+=======
+    color: rgb(80, 77, 77);
+} 
+>>>>>>> c0e297cf0d5381104d5e7b1114e1625d9562acb4
 
 #personal_info .container-fluid .container-fluid{
     display: flex;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 
 #second_article .text-center{
     color:#000000;
@@ -172,6 +182,8 @@ text-align: center;
     color:#EED1E4;
 }
 
+=======
+>>>>>>> c0e297cf0d5381104d5e7b1114e1625d9562acb4
 /* --- FOOTER ----------------------*/
 
 footer{
