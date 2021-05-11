@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 
 *{
     padding: 0px;
@@ -91,9 +93,11 @@ hr {
 
 
  /* SECTION #personal_info----------------- */
- 
+
 #personal_info .container-fluid .container{
     background-color: rgba(23, 23, 23, 0.15);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
 
 #face_photo{
@@ -110,6 +114,62 @@ hr {
 #personal_info h1{
     font-family: Rakkas;
     font-size: 1.5em;
+}
+
+#personal_info ul li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 1em;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#personal_info article .row:nth-child(2){
+    font-size: 0.8em;
+}
+
+#personal_info i{
+    color: rgb(58, 56, 56);
+}
+
+#personal_info .container-fluid .container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+#second_article .text-center{
+    color:#000000;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    /* font-style: normal; */
+    font-weight: bold;
+}
+
+#second_article .col ul li{
+    font-family: Rakkas;
+    /* font-style: normal; */
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 25px;
+}
+
+#second_article .row:last-child a{
+    font-family: Rakkas;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5em;
+line-height: 27px;
+width: 100%;
+text-align: center;
+}
+
+
+/* SECTION #portfolio----------------- */
+#portfolio{
+    background-color:#171717;
+    color:#EED1E4;
 }
 
 /* --- FOOTER ----------------------*/
@@ -131,15 +191,7 @@ footer .container-fluid{
 footer ul{
     color:#FFA5CB;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
 }
-
-/* footer ul li{
-    list-style-type: none;
-} */
 
 footer ul li strong{
     font-size: 1.2em
