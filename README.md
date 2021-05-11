@@ -83,5 +83,16 @@
 
       https://www.codeply.com/go/4FdZGlPMNV
       Author: Carol Iatek 
-      GitHub: https://github.com/iatek      
+      GitHub: https://github.com/iatek  
+
+   5. GIT Conflict issue: 
+
+      On the commits of the May 11, 2021:
+         - 19db935
+         - eb4cbf5
+
+      I received instructions from the Software Engineer
+      (and my personal friend), Ricardo Schiavetti
+
+      GitHub: https://github.com/rrschiavetti
             
