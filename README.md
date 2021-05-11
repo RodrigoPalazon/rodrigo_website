@@ -96,3 +96,9 @@
 
       GitHub: https://github.com/rrschiavetti
             
+   6. GIT Branches (Create, Merge, and Delete):
+
+      The link beneath was used to  my understanding on the
+      how to manage a branch and to create one 'layer' of security and preserve the main branch of the potential mistakes.
+
+      https://www.youtube.com/watch?v=sgzkY5vFKQQ

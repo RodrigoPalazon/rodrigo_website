@@ -170,6 +170,28 @@ hr {
     font-weight: 400;
 }
 
+#portfolio .container{
+    background-color:#EED1E4;
+    color:#000000;
+}
+
+#portfolio .container .container img{
+    width: 100%;
+    border:1px #171717 solid;
+}
+
+#portfolio .container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1em;
+    line-height: 22px;
+    word-spacing: 0.2em;
+
+    color: #000000;
+
+}
+
 /* --- FOOTER ----------------------*/
 
 footer{
