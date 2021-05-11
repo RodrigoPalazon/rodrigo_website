@@ -138,6 +138,38 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+
+#second_article .col ul li{
+    font-family: 'Rakkas', cursive;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+#second_article  a{
+    color: #0400ff;
+    text-decoration: none;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    font-family: 'Rakkas', cursive;
+    font-size: 1.2em;
+    letter-spacing: 0.15em;
+    word-spacing: 0.2em;
+}
+
+/* SECTION #portfolio----------------- */
+
+#portfolio{
+    background-color:#171717;
+    color:#EED1E4;
+}
+
+#portfolio h2{
+    font-family: 'Rakkas', cursive;
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
 /* --- FOOTER ----------------------*/
 
 footer{

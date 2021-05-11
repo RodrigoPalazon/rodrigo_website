@@ -92,7 +92,7 @@
          - eb4cbf5
 
       I received instructions from the Software Engineer
-      (and my personal friend), Ricardo Schiavetti
+      (and my personal friend), Ricardo Schiavetti.
 
       GitHub: https://github.com/rrschiavetti
             
