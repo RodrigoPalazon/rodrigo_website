@@ -89,7 +89,7 @@ hr {
 .custom-toggler.navbar-toggler .navbar-toggler-icon{
     color: #ffa5cb;
 }
-        /* end: ref  4. */
+        /* end: ref.  4. */
 
 
  /* SECTION #personal_info----------------- */
@@ -223,12 +223,48 @@ hr {
 
 /* SECTION #certificates----------------- */
 
-#certificates .container:nth-child(even){
-    background-color: rgba(23, 23, 23, 0.15);
+
+
+#certificates #accordion .card:nth-child(odd){
+    background-color: rgba(23, 23, 23, 0.05);
+    border: 2px groove #FFA5CB;
+}
+
+#certificates #accordion .card:nth-child(even){
+    background-color: inherit;
+    /* border: 2px groove #FFA5CB; */
 }
 
 .fa-caret-down{
     font-size: 2em;
+    color: #171717;
+}
+
+.card-header .row p{
+    margin-top: 0;
+    margin-bottom: 0em;
+    text-align: center;
+    width: 80%;
+    font-size: 1.2em;
+}    
+
+.card-header .row p span{
+    font-size: 0.8em;
+    color: #3b3b3b;
+}
+
+#accordion .card-header h4{
+    font-family: 'Rakkas', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 22px;
+    
+    color: #171717;
+}
+
+.card-body img{
+    width: 100%;
 }
 /* --- FOOTER ----------------------*/
 
