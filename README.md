@@ -102,3 +102,9 @@
       how to manage a branch and to create one 'layer' of security and preserve the main branch of the potential mistakes.
 
       https://www.youtube.com/watch?v=sgzkY5vFKQQ
+
+   7. Collapsible Icon: 
+   
+      For this, it was used the explanation from the official Bootstrap 4  documentation about **Accordion** as a model, and on it was made the necessary modifications    to achieve the desired result.
+
+      https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp

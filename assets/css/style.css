@@ -164,9 +164,9 @@ hr {
     color:#EED1E4;
 }
 
-#portfolio h2{
+#portfolio h2, #certificates h2{
     font-family: 'Rakkas', cursive;
-    font-size: 1.7em;
+    font-size: 2.2em;
     font-weight: 400;
 }
 
@@ -219,6 +219,16 @@ hr {
 #portfolio .fab{
     color: rgb(80, 77, 77);
     margin-left: -1em;
+}
+
+/* SECTION #certificates----------------- */
+
+#certificates .container:nth-child(even){
+    background-color: rgba(23, 23, 23, 0.15);
+}
+
+.fa-caret-down{
+    font-size: 2em;
 }
 /* --- FOOTER ----------------------*/
 
