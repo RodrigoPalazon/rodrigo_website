@@ -209,6 +209,11 @@ hr {
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+#portfolio div:last-child{
+    text-align:left;
 }
 
 #portfolio .fab{
