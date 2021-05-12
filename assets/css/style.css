@@ -22,8 +22,8 @@ body{
     font-family: 'Rakkas', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.7em;
+    line-height: 1.5em;
     text-align: center;
     color: #FFA5CB;
     border-bottom: 1px solid #EED1E4;
@@ -34,25 +34,25 @@ body{
     flex-direction: column;
     margin-top: 1em;
     list-style: none;
-    width: 30%;
+    width: 40%;
     float: right;
 
 }
 
 .navbar-dark .navbar-brand{
     position: absolute;
-    width: 82px;
-    height: 19px;
+    width: 86px;
+    height: 22px;
     left: 24px;
-    top: 15px;
+    top: 22px;
 
-    font-family: Rakkas;
+    /* font-family: Rakkas;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
 
-    color: #FFA5CB;
+    color: #FFA5CB; */
 
 }
 
@@ -95,7 +95,7 @@ hr {
  /* SECTION #personal_info----------------- */
 
 #personal_info .container-fluid .container{
-    background-color: rgba(23, 23, 23, 0.15);
+    background-color: rgba(23, 23, 23, 0.1);
     font-family: 'Poppins', sans-serif;
     font-weight: 1000;
 }
@@ -235,6 +235,12 @@ hr {
     /* border: 2px groove #FFA5CB; */
 }
 
+/* .title{
+    width: 100%;
+    padding-left: 5%;
+    text-align: center;
+} */
+
 .fa-caret-down{
     font-size: 2em;
     color: #171717;
@@ -246,6 +252,8 @@ hr {
     text-align: center;
     width: 80%;
     font-size: 1.2em;
+    width: 100%;
+    text-align: center;
 }    
 
 .card-header .row p span{
@@ -259,7 +267,8 @@ hr {
     font-weight: normal;
     font-size: 1.5em;
     line-height: 22px;
-    
+    width: 100%;
+    text-align: center;
     color: #171717;
 }
 
