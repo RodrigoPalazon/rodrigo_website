@@ -109,14 +109,10 @@
 
       https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 
-   8. Force page reload with html anchors links:
+   8. Show and Hide Elements using jQuery:
 
-      Used in the .nav-link's as value to the href attribute, to
-      collapse the menu-bar when some of the item were clicked.
+      https://www.w3schools.com/jquery/jquery_hide_show.asp
 
-      https://stackoverflow.com/questions/2573979/force-page-reload-with-html-anchors-html-js
-
-      Author: Falstro
-      https://stackoverflow.com/users/46991/falstro?tab=profile
+      The example from the official documentation was used as a model to collapse and uncollapse the toggle menu. This solution was chosen because some of the item in the the toggle menu are anchor links to another part from the index.html, making the toggle menu uncollapsable by itself when some item in the menu was clicked.
 
 
