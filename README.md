@@ -108,3 +108,15 @@
       For this, it was used the explanation from the official Bootstrap 4  documentation about **Accordion** as a model, and on it was made the necessary modifications    to achieve the desired result.
 
       https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
+
+   8. Force page reload with html anchors links:
+
+      Used in the .nav-link's as value to the href attribute, to
+      collapse the menu-bar when some of the item were clicked.
+
+      https://stackoverflow.com/questions/2573979/force-page-reload-with-html-anchors-html-js
+
+      Author: Falstro
+      https://stackoverflow.com/users/46991/falstro?tab=profile
+
+
