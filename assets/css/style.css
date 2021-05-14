@@ -9,6 +9,7 @@
 }
 
 body{
+    width:auto;
     background-color: #EED1E4;
 }
 
@@ -29,12 +30,13 @@ body{
     border-bottom: 1px solid #EED1E4;
 }
 
+
 .navbar-nav{
     display: flex;
     flex-direction: column;
     margin-top: 1em;
     list-style: none;
-    width: 40%;
+    width: 50%;
     float: right;
 
 }
@@ -282,9 +284,14 @@ footer{
     height: auto;
 }
 
-footer a{
+footer a, footer i, footer a strong{
     color:#FFA5CB;
+    /* text-decoration: none; */
 }
+
+footer a:hover {
+    text-decoration: none;
+  }
 
 footer .container-fluid{
     display: flex;
@@ -300,3 +307,11 @@ footer ul li strong{
     font-size: 1.2em
 }
 
+/* full_cv.html-------------------------- */
+
+#resume_full_cv_html{
+    width: 24em;
+    height: 35em;
+    margin-top: 2em;
+
+}
