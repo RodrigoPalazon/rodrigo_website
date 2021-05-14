@@ -118,6 +118,28 @@ hr {
         color: #171717;
         background-color:#FFA5CB;
     }
+
+
+    #personal_info .container-fluid{
+        display: flex;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        align-items: flex-end;
+        margin-bottom: 1.2em;
+    }
+
+    #first_article, #second_article{
+        width: 49%;
+    }
+
+    #second_article{
+        height: 15.3em;
+    }
+
+    #second_article p{
+        margin-top: 0.58em;
+    }
+
 }
    
 
