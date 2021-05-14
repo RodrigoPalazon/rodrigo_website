@@ -93,6 +93,33 @@ hr {
 }
         /* end: ref.  4. */
 
+@media only screen and (min-width: 992px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-family: 'Rakkas', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5em;
+        line-height: 1.5em;
+        text-align: center;
+        color: #FFA5CB;
+        border:none;
+        padding: 0 0.4em;
+    }
+    
+    div#collapsibleNavbar.navbar-collapse.collapse{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 0.5em;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link:hover{
+        color: #171717;
+        background-color:#FFA5CB;
+    }
+}
+   
 
  /* SECTION #personal_info----------------- */
 
