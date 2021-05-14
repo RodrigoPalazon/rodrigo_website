@@ -312,6 +312,22 @@ footer ul li strong{
 #resume_full_cv_html{
     width: 24em;
     height: 35em;
-    margin-top: 2em;
+    margin-top: 3em;
+}
 
+#download_cv{
+    color: #0400ff;
+    text-decoration: none;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    font-family: 'Rakkas', cursive;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    word-spacing: 0.2em;
+    padding: 1em 0;
+}
+
+#download_cv p{
+    margin-bottom: 0;
 }
