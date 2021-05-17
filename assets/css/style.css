@@ -144,6 +144,14 @@ hr {
         font-size: 1.3em;
     }
 
+    /* #certificates .card-link img{
+        width: 100%;
+    } */
+
+    /* #certificates .fa-caret-down{
+        display: none;
+    } */
+
     footer{
         padding: 0 1em;
     }
@@ -155,24 +163,33 @@ hr {
 }
 
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1023px){
+    .navbar-nav{
+        display: flex;
+        /* flex-direction: column; */
+        /* margin-top: 1em; */
+        list-style: none;
+        width: 65%;
+        /* float: right; */
+    }
+
     .navbar-dark .navbar-nav .nav-link{
         font-family: 'Rakkas', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2.5em;
-        line-height: 1.5em;
-        text-align: center;
+        /* font-style: normal;
+        font-weight: normal; */
+        font-size: 3em;
+        /* line-height: 1.5em; */
+        /* text-align: center; */
         color: #FFA5CB;
         border:none;
-        padding: 0 0.4em;
+        padding: 0 0.6em;
     }
     
     div#collapsibleNavbar.navbar-collapse.collapse{
-        width: 100%;
-        display: flex;
+        /* width: 100%;
+        display: flex; */
         justify-content: flex-end;
-        align-items: center;
+        /* align-items: center; */
         font-size: 0.5em;
     }
     
@@ -192,28 +209,39 @@ hr {
 
     #first_article, #second_article{
         width: 49%;
+        min-height: 18em;
+    }
+
+    #personal_info #first_article ul{
+        margin-top: 1em;
+    }
+
+    #personal_info #first_article ul li{
+        line-height: 1em;
     }
 
     #second_article{
-        height: 15.3em;
+        height: 30.6vh;
     }
 
     #second_article p{
-        margin-left: 14px;
-        margin-right: 15px;
-        margin-bottom: 1.5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
     }
 
-    #portfolio h2{
-        margin-left: 1em;
+    /* #personal_info #second_article .container.mt-2.mb-3.pt-3.pb-3{
+        margin-bottom: 0;
+        margin-top: 100px;
+        padding-top: 0;
+        padding-bottom: 0;
+    } */
+
+    #portfolio .row{
+        margin-left: 0em;
     }
 
-    #portfolio p:first-child{
-        margin-left: 2em;
-    }  
-    
-    #second_article .container{
-        height: 14.8em;
+    .card .card-header .row .col{
+        width: 1em;
         
     }
 
@@ -374,6 +402,14 @@ hr {
     color: #171717;
 }
 
+@media only screen and (max-width: 1024px) {
+    #certificates .card-link img{
+        display: none;
+        /* width: 130%; */
+    }
+}
+
+
 .card-header .row p{
     margin-top: 0;
     margin-bottom: 0em;
@@ -427,6 +463,7 @@ footer .container-fluid{
 footer ul{
     color:#FFA5CB;
     width: 100%;
+    list-style: none;
 }
 
 footer ul li strong{
@@ -436,8 +473,8 @@ footer ul li strong{
 /* full_cv.html-------------------------- */
 
 #resume_full_cv_html{
-    width: 22em;
-    height: 30em;
+    width: 100%;
+    /* height: 30em; */
     margin-top: 3em;
 }
 
