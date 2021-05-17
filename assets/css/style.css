@@ -47,15 +47,6 @@ body{
     height: 22px;
     left: 24px;
     top: 22px;
-
-    /* font-family: Rakkas;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-
-    color: #FFA5CB; */
-
 }
 
 .navbar-dark .navbar-brand:hover {
@@ -93,6 +84,14 @@ hr {
 }
         /* end: ref.  4. */
 
+/* @media only screen and (min-width: 1060px){
+    .navbar-nav{
+        display: flex;
+        list-style: none;
+        width: 50%;
+    }
+}         */
+
 @media only screen and (min-width: 767px){
     #personal_info #first_article, #personal_info #second_article,
     #portfolio, #certificates, footer{
@@ -112,7 +111,7 @@ hr {
     #personal_info #second_article p:first-child{
         text-align:center;
         width: 100%;
-        /* margin-bottom: 2em; */
+        margin-top: 1em;
     }
 
     #personal_info #second_article a{
@@ -166,11 +165,8 @@ hr {
 @media only screen and (min-width: 1023px){
     .navbar-nav{
         display: flex;
-        /* flex-direction: column; */
-        /* margin-top: 1em; */
         list-style: none;
         width: 65%;
-        /* float: right; */
     }
 
     .navbar-dark .navbar-nav .nav-link{
@@ -198,6 +194,9 @@ hr {
         background-color:#FFA5CB;
     }
 
+    #personal_info{
+        padding-bottom: 1%;
+    }
 
     #personal_info .container-fluid{
         display: flex;
@@ -209,7 +208,7 @@ hr {
 
     #first_article, #second_article{
         width: 49%;
-        min-height: 18em;
+        /* min-height: 18em; */
     }
 
     #personal_info #first_article ul{
@@ -220,21 +219,14 @@ hr {
         line-height: 1em;
     }
 
-    #second_article{
+    /* #second_article{
         height: 30.6vh;
-    }
+    } */
 
     #second_article p{
-        padding-top: .5em;
-        padding-bottom: .5em;
+        padding-top: .06em;
+        /* padding-bottom: .5em; */
     }
-
-    /* #personal_info #second_article .container.mt-2.mb-3.pt-3.pb-3{
-        margin-bottom: 0;
-        margin-top: 100px;
-        padding-top: 0;
-        padding-bottom: 0;
-    } */
 
     #portfolio .row{
         margin-left: 0em;
@@ -246,9 +238,33 @@ hr {
     }
 
 }
-   
 
+@media only screen and (min-width: 1060px){
+        .navbar-nav{
+            display: flex;
+            list-style: none;
+            width: 50%;
+        }
+    }
+
+        @media only screen and (min-width: 1061px) and (max-width: 1300px){
+            .navbar-nav{
+                display: flex;
+                list-style: none;
+                width: 42%; 
+            }        
+        }
  /* SECTION #personal_info----------------- */
+
+#personal_info{
+    padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 1024px){
+    #personal_info{
+        padding-bottom: 0%;
+    }   
+}
 
 #personal_info .container-fluid .container{
     background-color: rgba(23, 23, 23, 0.1);
@@ -295,6 +311,11 @@ hr {
     justify-content: space-between;
 }
 
+#personal_info #second_article{
+    margin: 3% 0 0 0;
+
+}
+
 #second_article .col ul li{
     font-family: 'Rakkas', cursive;
     font-size: 1.4em;
@@ -318,6 +339,7 @@ hr {
 #portfolio{
     background-color:#171717;
     color:#EED1E4;
+    /* margin-top: 5%; */
 }
 
 #portfolio h2, #certificates h2{
