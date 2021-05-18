@@ -162,14 +162,8 @@ body{
 }
 
 
-@media only screen and (min-width: 1023px){
-    /* .navbar-nav{
-        display: flex;
-        list-style: none;
-        width: 65%;
-    } */
-
-    .navbar-dark .navbar-nav .nav-link{
+@media only screen and (min-width: 1024px){
+   .navbar-dark .navbar-nav .nav-link{
         font-family: 'Rakkas', cursive;
         font-size: 3em;
         color: #FFA5CB;
@@ -227,36 +221,24 @@ body{
 
     .card .card-header .row .col{
         width: 1em;
-        
     }
-
 }
 
-/* @media only screen and (min-width: 1060px){
-        .navbar-nav{
-            display: flex;
-            list-style: none;
-            width: 50%;
-        }
-    }
-
-        @media only screen and (min-width: 1061px) and (max-width: 1300px){
-            .navbar-nav{
-                display: flex;
-                list-style: none;
-                width: 45%; 
-            }        
-        } */
  /* SECTION #personal_info----------------- */
 
 #personal_info{
     padding-bottom: 5%;
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1023px){
     #personal_info{
         padding-bottom: 0%;
-    }   
+    }
+    
+    #personal_info .container-fluid .container{
+        min-height: 19.5em;
+        padding-top: 5%;
+    }
 }
 
 #personal_info .container-fluid .container{
@@ -344,6 +326,45 @@ body{
 #portfolio .container{
     background-color:#EED1E4;
     color:#000000;
+
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1024px){
+    #portfolio .container-fluid {
+        padding: 0 5%;
+    }
+
+    #portfolio .container-fluid .container #flex{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    #portfolio .container-fluid .container #flex a{
+        width:100%;
+    }
+    
+    div.row.pl-4.pr-4.pt-3.text-center{
+        width: 100%;
+        text-align: justify;
+    }
+
+    #certificates .container-fluid{
+        margin: 0 auto;
+    }
+
+    /* .card{
+        max-width: 70%;
+    } */
+
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
 }
 
 #portfolio .container h3{
@@ -359,9 +380,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bolder;
-    font-size: 1em;
+    /* font-size: 1em; */
     /* line-height: 22px; */
-    /* word-spacing: 0.2em; */
+    /* word-spacing: -0.2em; */
     color: #000000;
     text-align: justify;
     text-indent: 2em;
@@ -370,7 +391,7 @@ body{
 #portfolio .container a{
     
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -378,7 +399,7 @@ body{
     color: #0400ff;
     font-size: 1em;
     letter-spacing: 0.15em;
-    word-spacing: 0.2em;
+    /* word-spacing: 0.2em; */
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -417,13 +438,32 @@ body{
     color: #171717;
 }
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (min-width: 1024px){
+    .fa-caret-down{
+        display: none;
+    }
+} */
+
+@media only screen and (max-width: 1023px) {
     #certificates .card-link img{
         display: none;
         /* width: 130%; */
     }
+    i.fas.fa-caret-down{
+        padding-left: 10%;
+    }
+
+    /* div.row.p-2{
+        width: 120%;
+    } */
+
 }
 
+.card-link img{
+    width: 70%;
+    max-height: 80%;
+    margin-left: 3%;
+}
 
 .card-header .row p{
     margin-top: 0;
@@ -453,6 +493,11 @@ body{
 
 .card-body img{
     width: 100%;
+}
+
+#almost_there{
+    width:20%;
+    margin: 0 40%;
 }
 /* --- FOOTER ----------------------*/
 
