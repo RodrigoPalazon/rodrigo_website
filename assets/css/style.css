@@ -21,23 +21,26 @@ body{
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Rakkas', cursive;
-    font-style: normal;
-    font-weight: normal;
+    /* font-style: normal;
+    font-weight: normal; */
     font-size: 1.7em;
     line-height: 1.5em;
     text-align: center;
     color: #FFA5CB;
-    border-bottom: 1px solid #EED1E4;
+    /* border-bottom: 1px solid #EED1E4; */
 }
 
 
 .navbar-nav{
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
     margin-top: 1em;
     list-style: none;
-    width: 50%;
-    float: right;
+    width: 100%;
+    font-family: 'Rakkas', cursive;
+    color: #FFA5CB;
+    border:none;
+    padding: 0 0.6em;
 
 }
 
@@ -49,25 +52,13 @@ body{
     top: 22px;
 }
 
-.navbar-dark .navbar-brand:hover {
+/* .navbar-dark .navbar-brand:hover {
     color: #EED1E4;
-}
-
-hr {
-    border-top: 1px solid #EED1E4;
-    width: 30%;
-    /* text-align: left; */
-    margin: 0;
-    float: right;
-}
-
-.navbar-nav .nav-item:last-child .nav-link{
-    border: none;
-}
+} */
 
 .navbar-brand img{
     width: 5em;
-    margin-top: -0.7em;
+    margin-top: -0.5em;
 }
 
         /* ref.:   4. README.md */
@@ -84,15 +75,24 @@ hr {
 }
         /* end: ref.  4. */
 
-/* @media only screen and (min-width: 1060px){
+@media only screen and (max-width: 992px){
     .navbar-nav{
-        display: flex;
-        list-style: none;
-        width: 50%;
+        width: 60%;
+        float: right;
     }
-}         */
+    
+    .navbar-dark .navbar-nav .nav-link{
+        font-family: 'Rakkas', cursive;
+        font-size: 1.5em;
+        color: #FFA5CB;
+        border-bottom: 2px solid #EED1E4;
+        padding: 0 0.6em;
+    }
+}        
 
 @media only screen and (min-width: 767px){
+    
+
     #personal_info #first_article, #personal_info #second_article,
     #portfolio, #certificates, footer{
         font-size: 1.4em;
@@ -163,29 +163,22 @@ hr {
 
 
 @media only screen and (min-width: 1023px){
-    .navbar-nav{
+    /* .navbar-nav{
         display: flex;
         list-style: none;
         width: 65%;
-    }
+    } */
 
     .navbar-dark .navbar-nav .nav-link{
         font-family: 'Rakkas', cursive;
-        /* font-style: normal;
-        font-weight: normal; */
         font-size: 3em;
-        /* line-height: 1.5em; */
-        /* text-align: center; */
         color: #FFA5CB;
         border:none;
         padding: 0 0.6em;
     }
     
     div#collapsibleNavbar.navbar-collapse.collapse{
-        /* width: 100%;
-        display: flex; */
         justify-content: flex-end;
-        /* align-items: center; */
         font-size: 0.5em;
     }
     
@@ -239,7 +232,7 @@ hr {
 
 }
 
-@media only screen and (min-width: 1060px){
+/* @media only screen and (min-width: 1060px){
         .navbar-nav{
             display: flex;
             list-style: none;
@@ -251,9 +244,9 @@ hr {
             .navbar-nav{
                 display: flex;
                 list-style: none;
-                width: 42%; 
+                width: 45%; 
             }        
-        }
+        } */
  /* SECTION #personal_info----------------- */
 
 #personal_info{
