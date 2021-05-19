@@ -14,22 +14,17 @@ body{
 }
 
 /* -- NAVBAR MENU ----------------------    */
-
 .navbar-dark{
     background-color: #171717;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Rakkas', cursive;
-    /* font-style: normal;
-    font-weight: normal; */
     font-size: 1.7em;
     line-height: 1.5em;
     text-align: center;
     color: #FFA5CB;
-    /* border-bottom: 1px solid #EED1E4; */
 }
-
 
 .navbar-nav{
     display: flex;
@@ -41,7 +36,6 @@ body{
     color: #FFA5CB;
     border:none;
     padding: 0 0.6em;
-
 }
 
 .navbar-dark .navbar-brand{
@@ -51,10 +45,6 @@ body{
     left: 24px;
     top: 22px;
 }
-
-/* .navbar-dark .navbar-brand:hover {
-    color: #EED1E4;
-} */
 
 .navbar-brand img{
     width: 5em;
@@ -92,11 +82,11 @@ body{
 
 @media only screen and (min-width: 767px){
     
-
-    #personal_info #first_article, #personal_info #second_article,
-    #portfolio, #certificates, footer{
+    #personal_info #first_article, 
+    #personal_info #second_article,
+    #portfolio, #certificates, 
+    footer{
         font-size: 1.4em;
-        /* line-height: 1.5em; */
     }
     
     #personal_info #first_article ul li, #personal_info #second_article ul li{
@@ -115,7 +105,6 @@ body{
     }
 
     #personal_info #second_article a{
-        /* margin-top: 1em; */
         margin-bottom: 0;
     }
 
@@ -142,14 +131,6 @@ body{
         width: 100%;
         font-size: 1.3em;
     }
-
-    /* #certificates .card-link img{
-        width: 100%;
-    } */
-
-    /* #certificates .fa-caret-down{
-        display: none;
-    } */
 
     footer{
         padding: 0 1em;
@@ -188,14 +169,12 @@ body{
     #personal_info .container-fluid{
         display: flex;
         justify-content: space-between;
-        /* flex-wrap: wrap; */
         align-items: flex-end;
         margin-bottom: 1.2em;
     }
 
     #first_article, #second_article{
         width: 49%;
-        /* min-height: 18em; */
     }
 
     #personal_info #first_article ul{
@@ -206,13 +185,8 @@ body{
         line-height: 1em;
     }
 
-    /* #second_article{
-        height: 30.6vh;
-    } */
-
     #second_article p{
         padding-top: .06em;
-        /* padding-bottom: .5em; */
     }
 
     #portfolio .row{
@@ -265,13 +239,11 @@ h1{
 #personal_info h2{
     font-family: Rakkas;
     font-size: 1.5em;
-    /* margin-top: 10%; */
 }
 
 #personal_info ul li{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    /* font-weight: 700; */
     font-size: 1em;
     line-height: 19px;
 
@@ -325,13 +297,13 @@ h1{
 #portfolio{
     background-color:#171717;
     color:#EED1E4;
-    /* margin-top: 5%; */
 }
 
 #portfolio h2, #certificates h2{
     font-family: 'Rakkas', cursive;
     font-size: 2.2em;
     font-weight: 400;
+    margin-top: 2%;
 }
 
 #portfolio .container{
@@ -367,10 +339,6 @@ h1{
         margin: 0 auto;
     }
 
-    /* .card{
-        max-width: 70%;
-    } */
-
     footer{
         display: flex;
         flex-direction: row-reverse;
@@ -391,18 +359,13 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bolder;
-    /* font-size: 1em; */
-    /* line-height: 22px; */
-    /* word-spacing: -0.2em; */
     color: #000000;
     text-align: justify;
     text-indent: 2em;
 }
 
 #portfolio .container a{
-    
     width: 100%;
-    /* text-align: center; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -410,7 +373,6 @@ h1{
     color: #0400ff;
     font-size: 1em;
     letter-spacing: 0.15em;
-    /* word-spacing: 0.2em; */
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -424,9 +386,8 @@ h1{
     margin-left: -1em;
 }
 
+
 /* SECTION #certificates----------------- */
-
-
 
 #certificates #accordion .card:nth-child(odd){
     background-color: rgba(23, 23, 23, 0.05);
@@ -438,36 +399,18 @@ h1{
     /* border: 2px groove #FFA5CB; */
 }
 
-/* .title{
-    width: 100%;
-    padding-left: 5%;
-    text-align: center;
-} */
-
 .fa-caret-down{
     font-size: 2em;
     color: #171717;
 }
 
-/* @media only screen and (min-width: 1024px){
-    .fa-caret-down{
-        display: none;
-    }
-} */
-
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1023px){
     #certificates .card-link img{
         display: none;
-        /* width: 130%; */
     }
     i.fas.fa-caret-down{
         padding-left: 10%;
     }
-
-    /* div.row.p-2{
-        width: 120%;
-    } */
-
 }
 
 .card-link img{
@@ -510,6 +453,7 @@ h1{
     width:20%;
     margin: 0 40%;
 }
+
 /* --- FOOTER ----------------------*/
 
 footer{
@@ -519,7 +463,6 @@ footer{
 
 footer a, footer i, footer a strong{
     color:#FFA5CB;
-    /* text-decoration: none; */
 }
 
 footer a:hover {
@@ -545,7 +488,6 @@ footer ul li strong{
 
 #resume_full_cv_html{
     width: 100%;
-    /* height: 30em; */
     margin-top: 3em;
 }
 
