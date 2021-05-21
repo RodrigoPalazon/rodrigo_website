@@ -16,6 +16,8 @@ body{
 /* -- NAVBAR MENU ----------------------    */
 .navbar-dark{
     background-color: #171717;
+    min-height: 8vh;
+    padding:0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -35,7 +37,7 @@ body{
     font-family: 'Rakkas', cursive;
     color: #FFA5CB;
     border:none;
-    padding: 0 0.6em;
+    /* padding: 0 0.6em; */
 }
 
 .navbar-dark .navbar-brand{
@@ -49,6 +51,16 @@ body{
 .navbar-brand img{
     width: 5em;
     margin-top: -0.5em;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #171717;
+    background-color:#FFA5CB;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #171717;
+    background-color:#FFA5CB;
 }
 
         /* ref.:   4. README.md */
@@ -76,71 +88,11 @@ body{
         font-size: 1.5em;
         color: #FFA5CB;
         border-bottom: 2px solid #EED1E4;
-        padding: 0 0.6em;
+        /* padding: 0 0.6em; */
     }
 }        
 
-@media only screen and (min-width: 767px){
-    
-    #personal_info #first_article, 
-    #personal_info #second_article,
-    #portfolio, #certificates, 
-    footer{
-        font-size: 1.4em;
-    }
-    
-    #personal_info #first_article ul li, #personal_info #second_article ul li{
-        margin-bottom: .5em;
-    }
 
-    #personal_info #second_article ul{
-        padding-left: 25%;
-        margin-top: 1em;
-    }
-
-    #personal_info #second_article p:first-child{
-        text-align:center;
-        width: 100%;
-        margin-top: 1em;
-    }
-
-    #personal_info #second_article a{
-        margin-bottom: 0;
-    }
-
-    #portfolio .container-fluid p{
-        margin-left: .3em;
-    }
-
-    #portfolio .container-fluid h2{
-        margin-left: .2em;
-    }
-
-    #portfolio .container-fluid .container h3{
-        font-size: 1.7em;
-        margin: 0.2em 0 .4em 0;
-    }
-
-    #portfolio .container-fluid .container img{
-        margin-bottom: 1em;
-    }
-
-    #portfolio .container-fluid .container a>p{
-        margin: 1em 0;
-        text-align: center;
-        width: 100%;
-        font-size: 1.3em;
-    }
-
-    footer{
-        padding: 0 1em;
-    }
-
-    footer .container-fluid .ml-4{
-        text-align: center;
-        list-style: none;
-    }
-}
 
 
 @media only screen and (min-width: 1024px){
@@ -149,7 +101,7 @@ body{
         font-size: 3em;
         color: #FFA5CB;
         border:none;
-        padding: 0 0.6em;
+        /* padding: 0 0.6em; */
     }
     
     div#collapsibleNavbar.navbar-collapse.collapse{
@@ -157,10 +109,10 @@ body{
         font-size: 0.5em;
     }
     
-    .navbar-dark .navbar-nav .nav-link:hover{
+    /* .navbar-dark .navbar-nav .nav-link:hover{
         color: #171717;
         background-color:#FFA5CB;
-    }
+    } */
 
     #personal_info{
         padding-bottom: 1%;
@@ -290,6 +242,68 @@ h1{
     font-size: 1.2em;
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
+}
+
+@media only screen and (min-width: 767px){
+    
+    #personal_info #first_article, 
+    #personal_info #second_article,
+    #portfolio, #certificates, 
+    footer{
+        font-size: 1.4em;
+    }
+    
+    #personal_info #first_article ul li, #personal_info #second_article ul li{
+        margin-bottom: .5em;
+    }
+
+    #personal_info #second_article ul{
+        padding-left: 25%;
+        margin-top: 1em;
+    }
+
+    #personal_info #second_article p:first-child{
+        text-align:center;
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    #personal_info #second_article a{
+        margin-bottom: 0;
+    }
+
+    #portfolio .container-fluid p{
+        margin-left: .3em;
+    }
+
+    #portfolio .container-fluid h2{
+        margin-left: .2em;
+    }
+
+    #portfolio .container-fluid .container h3{
+        font-size: 1.7em;
+        margin: 0.2em 0 .4em 0;
+    }
+
+    #portfolio .container-fluid .container img{
+        margin-bottom: 1em;
+    }
+
+    #portfolio .container-fluid .container a>p{
+        margin: 1em 0;
+        text-align: center;
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+    footer{
+        padding: 0 1em;
+    }
+
+    footer .container-fluid .ml-4{
+        text-align: center;
+        list-style: none;
+    }
 }
 
 /* SECTION #portfolio----------------- */
