@@ -37,7 +37,6 @@ body{
     font-family: 'Rakkas', cursive;
     color: #FFA5CB;
     border:none;
-    /* padding: 0 0.6em; */
 }
 
 .navbar-dark .navbar-brand{
@@ -45,7 +44,8 @@ body{
     width: 86px;
     height: 22px;
     left: 24px;
-    top: 22px;
+    top: 23px;
+    padding: 0;
 }
 
 .navbar-brand img{
@@ -74,9 +74,12 @@ body{
 
 .custom-toggler.navbar-toggler .navbar-toggler-icon{
     color: #ffa5cb;
+    background-size: 170% 170%;
+    margin: 15px;
 }
-        /* end: ref.  4. */
+    /* end: ref.  4. */
 
+    /* Media Query---- NAVBAR MENU -----------*/        
 @media only screen and (max-width: 992px){
     .navbar-nav{
         width: 60%;
@@ -88,12 +91,8 @@ body{
         font-size: 1.5em;
         color: #FFA5CB;
         border-bottom: 2px solid #EED1E4;
-        /* padding: 0 0.6em; */
     }
 }        
-
-
-
 
 @media only screen and (min-width: 1024px){
    .navbar-dark .navbar-nav .nav-link{
@@ -101,74 +100,22 @@ body{
         font-size: 3em;
         color: #FFA5CB;
         border:none;
-        /* padding: 0 0.6em; */
     }
     
     div#collapsibleNavbar.navbar-collapse.collapse{
         justify-content: flex-end;
         font-size: 0.5em;
     }
-    
-    /* .navbar-dark .navbar-nav .nav-link:hover{
-        color: #171717;
-        background-color:#FFA5CB;
-    } */
-
-    #personal_info{
-        padding-bottom: 1%;
-    }
-
-    #personal_info .container-fluid{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        margin-bottom: 1.2em;
-    }
-
-    #first_article, #second_article{
-        width: 49%;
-    }
-
-    #personal_info #first_article ul{
-        margin-top: 1em;
-    }
-
-    #personal_info #first_article ul li{
-        line-height: 1em;
-    }
-
-    #second_article p{
-        padding-top: .06em;
-    }
-
-    #portfolio .row{
-        margin-left: 0em;
-    }
-
-    .card .card-header .row .col{
-        width: 1em;
-    }
 }
 
- /* SECTION #personal_info----------------- */
 
+/* SECTION #personal_info----------------- */
 #personal_info{
     padding-bottom: 5%;
 }
 
 h1{
     display: none;
-}
-
-@media only screen and (min-width: 1023px){
-    #personal_info{
-        padding-bottom: 0%;
-    }
-    
-    #personal_info .container-fluid .container{
-        min-height: 19.5em;
-        padding-top: 5%;
-    }
 }
 
 #personal_info .container-fluid .container{
@@ -243,13 +190,12 @@ h1{
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
 }
-
+    /* Media Query --- SECTION #personal_info----------------- */
 @media only screen and (min-width: 767px){
     
     #personal_info #first_article, 
     #personal_info #second_article,
-    #portfolio, #certificates, 
-    footer{
+    #portfolio, #certificates{
         font-size: 1.4em;
     }
     
@@ -271,38 +217,39 @@ h1{
     #personal_info #second_article a{
         margin-bottom: 0;
     }
+}
 
-    #portfolio .container-fluid p{
-        margin-left: .3em;
+@media only screen and (min-width: 1024px){
+    #personal_info .container-fluid .container{
+        min-height: 19.5em;
+        padding-top: 5%;
     }
 
-    #portfolio .container-fluid h2{
-        margin-left: .2em;
+    #personal_info{
+        padding-bottom: 1%;
     }
 
-    #portfolio .container-fluid .container h3{
-        font-size: 1.7em;
-        margin: 0.2em 0 .4em 0;
+    #personal_info .container-fluid{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 1.2em;
     }
 
-    #portfolio .container-fluid .container img{
-        margin-bottom: 1em;
+    #first_article, #second_article{
+        width: 49%;
     }
 
-    #portfolio .container-fluid .container a>p{
-        margin: 1em 0;
-        text-align: center;
-        width: 100%;
-        font-size: 1.3em;
+    #personal_info #first_article ul{
+        margin-top: 1em;
     }
 
-    footer{
-        padding: 0 1em;
+    #personal_info #first_article ul li{
+        line-height: 1em;
     }
 
-    footer .container-fluid .ml-4{
-        text-align: center;
-        list-style: none;
+    #second_article p{
+        padding-top: .6em;
     }
 }
 
@@ -327,37 +274,6 @@ h1{
     display:flex;
     justify-content: center;
     flex-direction: column;
-}
-
-@media only screen and (min-width: 1024px){
-    #portfolio .container-fluid {
-        padding: 0 5%;
-    }
-
-    #portfolio .container-fluid .container #flex{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-    }
-
-    #portfolio .container-fluid .container #flex a{
-        width:100%;
-    }
-    
-    div.row.pl-4.pr-4.pt-3.text-center{
-        width: 100%;
-        text-align: justify;
-    }
-
-    #certificates .container-fluid{
-        margin: 0 auto;
-    }
-
-    footer{
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
 }
 
 #portfolio .container h3{
@@ -400,9 +316,63 @@ h1{
     margin-left: -1em;
 }
 
+    /* ---Media Query---SECTION #portfolio-------------- */
+@media only screen and (min-width: 767px){
+    #portfolio .container-fluid p{
+        margin-left: .3em;
+    }
+
+    #portfolio .container-fluid h2{
+        margin-left: .2em;
+    }
+
+    #portfolio .container-fluid .container h3{
+        font-size: 1.7em;
+        margin: 0.2em 0 .4em 0;
+    }
+
+    #portfolio .container-fluid .container img{
+        margin-bottom: 1em;
+    }
+
+    #portfolio .container-fluid .container a>p{
+        margin: 1em 0;
+        text-align: center;
+        width: 100%;
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #portfolio .container-fluid {
+        padding: 0 5%;
+    }
+
+    #portfolio .container-fluid .container #flex{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    #portfolio .container-fluid .container #flex a{
+        width:100%;
+    }
+    
+    div.row.pl-4.pr-4.pt-3.text-center{
+        width: 100%;
+        text-align: justify;
+    }
+
+    #portfolio .row{
+        margin-left: 0em;
+    }
+
+    .card .card-header .row .col{
+        width: 1em;
+    }
+}
 
 /* SECTION #certificates----------------- */
-
 #certificates #accordion .card:nth-child(odd){
     background-color: rgba(23, 23, 23, 0.05);
     border: 2px groove #FFA5CB;
@@ -416,15 +386,6 @@ h1{
 .fa-caret-down{
     font-size: 2em;
     color: #171717;
-}
-
-@media only screen and (max-width: 1023px){
-    #certificates .card-link img{
-        display: none;
-    }
-    i.fas.fa-caret-down{
-        padding-left: 10%;
-    }
 }
 
 .card-link img{
@@ -463,9 +424,20 @@ h1{
     width: 100%;
 }
 
-#almost_there{
-    width:20%;
-    margin: 0 40%;
+    /*--Media Query----SECTION #certificates----------------- */
+@media only screen and (min-width: 1024px){
+    #certificates .container-fluid{
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #certificates .card-link img{
+        display: none;
+    }
+    i.fas.fa-caret-down{
+        padding-left: 10%;
+    }
 }
 
 /* --- FOOTER ----------------------*/
@@ -496,6 +468,26 @@ footer ul{
 
 footer ul li strong{
     font-size: 1.2em
+}
+
+    /*---Media Query --- FOOTER ------------------*/
+@media only screen and (min-width: 767px){
+    footer{
+        font-size: 1.4em;
+        padding: 0 1em;
+    }
+    
+    footer .container-fluid .ml-4{
+        text-align: center;
+        list-style: none;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
 
 /* full_cv.html-------------------------- */
