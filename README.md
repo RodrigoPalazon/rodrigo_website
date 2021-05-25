@@ -5,7 +5,7 @@
 
   The main goal of this project is to share with potential employers my knowledge and skills as a programmer. 
   In my web portfolio, you can check my skills, my CV, my Certificates, my social medias, and other projects that I've already done and its source code.
-  This whole project was planned,  designed responsivity, and developed by myself. 
+  This whole project was planned,  designed (considering responsivity), and developed by myself. 
 
 ![](assets/images/am_I_responsive.png)
 
@@ -17,7 +17,8 @@
 
       1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the programmer whom the portfolio is about and his capabilities.
       2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-      3. As a First Time Visitor, I want to look for different projects created and developed by the programmer that owns the portfolio, their source code, and see if they are trusted, clean and organized. I also want to locate his social media links to see his behavior and thoughts as a human being, and his personality (beyond technical skills).
+      3. As a First Time Visitor, I want to look for different projects created and developed by the programmer that owns the portfolio, their source code, and see if they are trusted, clean and organized. 
+      4. As a First Time Visitor, I want to locate his social media links so I can see his behavior and thoughts as a human being, and his personality (beyond technical skills).
 
     -   #### Returning Visitor Goals
 
@@ -91,23 +92,48 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-   1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+   1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the programmer whom the portfolio is about and his capabilities.
 
-      1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page and/or content of their choice.
-      1. TheThe main page is divided in three parts, being they a Summary CV, Portfolio, and Certificates ( Navigation bar and Footer not considered in this context). 
-      1. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to know more about Rodrigo Palazon as a programmer.
+      1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page and/or content of their choice about Rodrigo.
+      2. The main page is divided in three parts, being they a Summary CV, Portfolio, and Certificates ( Navigation bar and Footer not considered in this context). 
+      3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to know more about Rodrigo Palazon as a programmer.
 
    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
       1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page or content they will end up at clearly.
-      1. At the top of the main page and the "My Full CV" there fixed top navigation bar to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-      1. On the 'My Full CV' Page, the options in the navigation bar changing showing to the user clearly that there is different content on both pages.
-
-   3. As a First Time Visitor, I want to look for different projects created and developed by the programmer that owns the portfolio, their source code, and see if they are trusted, clean and organized. I also want to locate his social media links to see his behavior and thoughts as a human being, and his personality (beyond technical skills).
+      2. At the top of the main page and the "My Full CV" page there is a fixed top navigation bar to ensure the user always has somewhere to go and does not feel trapped as they get to the bottom of the page.
+      3. On the "My Full CV" Page, the options in the navigation bar changes, making easier for the user to navigate on this page.
+      
+   3. As a First Time Visitor, I want to look for different projects created and developed by the programmer that owns the portfolio, their source code, and see if they are trusted, clean and organized. 
      
-      1. Once the new visitor has read the Summary CV, they will notice the Portfolio and Certificates sections.
-      1. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-      1. At the top of any page, the user is able to click on the logo, which will be directing him straight to the top of the Home page.
+      1. Once the new visitor has read the Summary CV, they will notice the Portfolio and Certificates sections below.
+      2. At the top of any page, the user is able to click on the logo, which will be directing him straight to the top of the Home page.
+      3. The visitor can see and inspect Rodrigo's code by clicking at the GitHub links available at the Summary section and Footer. In addition, the GitHub repository for a specific project is available at the Portfolio section, by clicking on the GitHub icon.
+
+   4. As a First Time Visitor, I want to locate his social media links so I can see his behavior and thoughts as a human being, and his personality (beyond technical skills).
+      
+      1. The user will easily find the social media icons at the Summary Section, and also can scroll to the bottom of any page on the site to locate social media icons in the footer.
+
+
+   -   #### Returning Visitor Goals
+
+   1. As a Returning Visitor, I want to find a new technical skill presented in this portfolio. This could be a new programming language, a new project that he did, an open source code that he has been involved in, an updated CV, or a new certificate.
+
+      1. This will be recognized in the Summary section when learned a new technical skill be learned.
+      2. All the new projects will be added in the Portfolio section.
+      3. All new certificates will be added in the Certificates section.
+
+   2. As a Returning Visitor, I want to find the best way to get in contact with the professional with any questions I may have.
+
+      1. The Summary Section clearly highlights the Icons of Email and different Social media, personal and professional.
+      2. The footer contains links to the programmer's Email, LinkedIn, GitHub, Instagram and Facebook page.
+      3. Whichever link they click, it will be open up in a new tab to ensure the user can get back to the website.
+
+   3. As a Returning Visitor, I want to find a better and/or updated presentation of this project.
+      
+      1. As Rodrigo progresses in his studies and accomplishments, this website will be updated and improved.
+
+
 ##### Bugs discovered:
 
   *Here should be added all the bugs and their fixes*
@@ -126,7 +152,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     
    1. README: 
-      *[Code-Institute-Solutions/readme-template](https://github.com/Code-Institute-Solutions/readme-template)
+      *[Code-Institute-Solutions/SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
       All this READ.md file used the above reference to be created before starting coding.
               
    
