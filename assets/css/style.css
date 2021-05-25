@@ -270,10 +270,6 @@ h1{
 #portfolio .container{
     background-color:#EED1E4;
     color:#000000;
-
-    /* display:flex;
-    justify-content: center;
-    flex-direction: column; */
 }
 
 #portfolio .container h3{
@@ -296,9 +292,7 @@ h1{
 
 #portfolio .container a{
     width: 100%;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
-    /* padding-left: -10%; */
 }
 
 #portfolio .container a p{
@@ -311,7 +305,6 @@ h1{
     font-size: 1.2em;
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
-    /* text-align: center; */
 }
 
 #portfolio div:last-child{
