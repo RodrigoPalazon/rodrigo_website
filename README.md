@@ -28,7 +28,7 @@ Debugged Link: https://rodrigopalazon.github.io/milestone_project_1/
 
 - ### Design
 
-    -   #### Colour Scheme
+    -   #### Color Scheme
         
         -   The two main colours used are Code Pink (#EED1E4), and Black (#171717).
     -   #### Typography
@@ -39,37 +39,53 @@ Debugged Link: https://rodrigopalazon.github.io/milestone_project_1/
         -   Imagery is important. The rounded image of the face was designed for the potential employer to have a more clear vision to whom the portfolio belongs.
 
 
-  The first image (on the left) is a mockup of the **mobile layout**.  
+*   ### Wireframes
 
-  The second image (on the right) is a mockup of the **desktop layout**.
+    -   Desktop Mockup - [View](assets/images/desktop_wireframe.png)
 
-  You can easily recognize that the layout is slightly different from each other, exactly because of the responsivity and how the elements will behave depending on the user size's screen device.
+    -   Mobile Mockup - [View](assets/images/mobile_wireframe.png)
+
+    -   My Full CV Page Mockup - [View](assets/images/cv_page_wireframe.png)
+
+  You can easily recognize that the layout is slightly different from each other, exactly because of the responsivity and how the elements behaves depending on the user size's screen device.
  
+ ## Features
 
-=======
- 
- ### Features:
+-   Responsive on all device sizes
+
+-   Interactive elements
+ ## Technologies Used
+
+ ### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
  ---
-    * Feature 1 - shares with the users my knowledge and skills as a programmer.
-    * Feature 2 - shares differents projects that I've done so far.
-    * Feature 3 - shares the certificates that I've taken so far.
-    * Feature 4 - shares my social networks, and email address, doing the connection between me user and myself easier, if desired.
- 
- 
- ### Technologies Used:
- ---
-     **HTML5**: The project uses HTML5 to describe and organize the structure of a Web page.
-    
-     **CSS3**: The project uses CSS3 to describes how HTML elements are to be displayed on screen, paper, or in other media.
-         
-     **Bootstrap 4**: The project uses Bootstrap 4 to create a high-quality responsivity and ensure that the concept "Mobile first", will be implemented properly.
-    
-     **Font Awesome**: The project uses **Font Awesome** to place the icons that it offers just about anywhere using a style prefix and the icon’s name.
+### Frameworks, Libraries & Programs Used
 
-### Testing:
----
-     * "you should mention in this section how your project looks and works on different browsers and screen sizes." 
-        "You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet."*
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Gimp:](https://www.gimp.org)
+    - Gimp was used to create the logo, resizing images and editing photos for the website.
+1. [Figma:](https://www.figma.com/)
+    - Figma was used to create the Mockups (presented in the Wireframes Section above) during the design process.
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](assets/images/validator_html.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/validator_css.png)
 
 ##### Bugs discovered:
 
