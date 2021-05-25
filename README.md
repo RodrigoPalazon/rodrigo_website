@@ -3,13 +3,32 @@ Debugged Link: https://rodrigopalazon.github.io/milestone_project_1/
 ## Personal Portfolio
 ---
 
-  The main goal of this project is to share with potential employers my knowledge and skills as a programmer. If the company that you're working for (or even your own company) needs a programmer, or if you would like to create a website for yourself, I can help you with that.
-  In my web portfolio, you can check my skills, my CV, all my social medias, and other projects that I've already done.
-  This whole project was designed and developed by myself. 
+  The main goal of this project is to share with potential employers my knowledge and skills as a programmer. 
+  In my web portfolio, you can check my skills, my CV, my Certificates, my social medias, and other projects that I've already done and its source code.
+  This whole project was planned,  designed responsivity, and developed by myself. 
 
 
-### UX/ UI:
+## User Experience (UX)
 ---
+- ### User stories 
+
+   - #### First Time Visitor Goals
+
+      1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the programmer whom the portfolio is about and his capabilities.
+      2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+      3. As a First Time Visitor, I want to look for different projects created and developed by the programmer that owns the portfolio, their source code, and see if they are trusted, clean and organized. I also want to locate his social media links to see his behaviour and thoughts as a human being, beyond technical skills.
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to find a new technical skill presented in his portfolio. This could be a new programming language, a new project that he's done, an open source code that he has been involved in,  an updated CV,  or a new certificate. 
+        2. As a Returning Visitor, I want to find the best way to get in contact with the professional with any questions I may have.
+        3. As a Returning Visitor, I want to find a better and/or updated presentation of this project.
+
+
+
+
+
+
   The first image (on the left) is a mockup of the **mobile layout**.  
 
   The second image (on the right) is a mockup of the **desktop layout**.
