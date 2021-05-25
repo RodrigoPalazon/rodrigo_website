@@ -7,6 +7,7 @@ Debugged Link: https://rodrigopalazon.github.io/milestone_project_1/
   In my web portfolio, you can check my skills, my CV, my Certificates, my social medias, and other projects that I've already done and its source code.
   This whole project was planned,  designed responsivity, and developed by myself. 
 
+![](assets/images/am_I_responsive.png)
 
 ## User Experience (UX)
 ---
@@ -25,8 +26,17 @@ Debugged Link: https://rodrigopalazon.github.io/milestone_project_1/
         3. As a Returning Visitor, I want to find a better and/or updated presentation of this project.
 
 
+- ### Design
 
+    -   #### Colour Scheme
+        
+        -   The two main colours used are Code Pink (#EED1E4), and Black (#171717).
+    -   #### Typography
+        
+        -   The Poppins font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Even no being a very much usable font for websites, it was styled properly in size, spacing, weight, and color to be an easily readable font respecting all the UI concepts.
 
+    -   #### Imagery
+        -   Imagery is important. The rounded image of the face was designed for the potential employer to have a more clear vision to whom the portfolio belongs.
 
 
   The first image (on the left) is a mockup of the **mobile layout**.  
@@ -35,7 +45,7 @@ Debugged Link: https://rodrigopalazon.github.io/milestone_project_1/
 
   You can easily recognize that the layout is slightly different from each other, exactly because of the responsivity and how the elements will behave depending on the user size's screen device.
  
-![](https://github.com/RodrigoPalazon/milestone_project_1/blob/main/assets/images/mobile_wireframe.png "Mobile wireframe") ![Desktop wireframe](https://github.com/RodrigoPalazon/milestone_project_1/blob/main/assets/images/desktop_wireframe.png "Desktop wireframe")
+
 =======
  
  ### Features:
