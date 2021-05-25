@@ -94,20 +94,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
       1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page and/or content of their choice.
-      2. TheThe main page is divided in three parts, being they a Summary CV, Portfolio, and Certificates ( Navigation bar and Footer not considered in this context). 
-      3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to know more about Rodrigo Palazon as a programmer.
+      1. TheThe main page is divided in three parts, being they a Summary CV, Portfolio, and Certificates ( Navigation bar and Footer not considered in this context). 
+      1. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to know more about Rodrigo Palazon as a programmer.
 
    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
       1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page or content they will end up at clearly.
-      2. At the top of the main page and the "My Full CV" there fixed top navigation bar to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-      3. On the 'My Full CV' Page, the options in the navigation bar changing showing to the user clearly that there is different content on both pages.
+      1. At the top of the main page and the "My Full CV" there fixed top navigation bar to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+      1. On the 'My Full CV' Page, the options in the navigation bar changing showing to the user clearly that there is different content on both pages.
 
    3. As a First Time Visitor, I want to look for different projects created and developed by the programmer that owns the portfolio, their source code, and see if they are trusted, clean and organized. I also want to locate his social media links to see his behavior and thoughts as a human being, and his personality (beyond technical skills).
      
       1. Once the new visitor has read the Summary CV, they will notice the Portfolio and Certificates sections.
-      2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-      3. At the top of any page, the user is able to click on the logo, which will be directing him straight to the top of the Home page.
+      1. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+      1. At the top of any page, the user is able to click on the logo, which will be directing him straight to the top of the Home page.
 ##### Bugs discovered:
 
   *Here should be added all the bugs and their fixes*
