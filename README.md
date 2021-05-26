@@ -20,7 +20,7 @@
       3. As a First Time Visitor, I want to look for different projects created and developed by Rodrigo Palazon , his portfolio, its source code, and see if they are trusted, clean and organized. 
       4. As a First Time Visitor, I want to locate Rodrigo Palazon's social media links so I can see his behavior and thoughts as a human being, and his personality (beyond technical skills).
 
-    -   #### Returning Visitor Goals
+    - #### Returning Visitor Goals
 
       1. As a Returning Visitor, I want to find a new technical skill presented in Rodrigo Palazon's portfolio. This could be a new programming language, a new project that he has done, an open-source code that he has been involved in, an updated CV, or a new certificate. 
       2. As a Returning Visitor, I want to find the best way to get in contact with Rodrigo Palazon to be answered to any questions I might have.
