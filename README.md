@@ -160,13 +160,46 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://rodrigopalazon.github.io/milestone_project_1/) in the "GitHub Pages" section.
 
+### Forking the GitHub Repository
 
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
- <!-- ---------------------------------------------------------------------------------- -->
- 
-### CREDITS: 
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/RodrigoPalazon/milestone_project_1)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/RodrigoPalazon/milestone_project_1)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/RodrigoPalazon/milestone_project_1.git
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/RodrigoPalazon/milestone_project_1.git
+> Cloning into `milestone_project_1`...
+> remote: Enumerating objects: 324, done.
+>remote: Counting objects: 100% (324/324), done.
+>remote: Compressing objects: 100% (212/212), done.
+>remote: Total 324 (delta 116), reused 282 (delta 74), pack-reused 0
+>Receiving objects: 100% (324/324), 13.59 MiB | 3.56 MiB/s, done.
+>Resolving deltas: 100% (116/116), done.
+
+```
+
+Click [Here](assets/images/readme_deployment.png) to retrieve picture for some of the buttons and more detailed explanations of the above process.
+
+## CREDITS: 
 ---
-##### References, Snippets, Tips, Texts, Links and other helps:
+#### Code:
 
     
    1. README: 
@@ -228,3 +261,16 @@ The project was deployed to GitHub Pages using the following steps...
       The example from the official documentation was used as a model to collapse and uncollapse the toggle menu. This solution was chosen because some of the item in the the toggle menu are anchor links to another part from the index.html, making the toggle menu uncollapsable by itself when some item in the menu was clicked.
 
 
+### Content
+
+-   All content was written by [Rodrigo Palazon](https://github.com/RodrigoPalazon).
+
+### Media
+
+-   All Images were created by [Rodrigo Palazon](https://github.com/RodrigoPalazon).
+
+### Acknowledgements
+
+-   My Mentor [Jack Wachira](https://github.com/iamjackwachira) for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
