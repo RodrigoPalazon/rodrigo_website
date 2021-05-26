@@ -293,6 +293,7 @@ h1{
 #portfolio .container a{
     width: 100%;
     text-align: center;
+    text-decoration: none;
 }
 
 #portfolio .container a p{
@@ -425,11 +426,6 @@ h1{
 }
 
     /*--Media Query----SECTION #certificates----------------- */
-@media only screen and (min-width: 1024px){
-    #certificates .container-fluid{
-        margin: 0 auto;
-    }
-}
 
 @media only screen and (max-width: 1024px){
     #certificates .card-link img{
