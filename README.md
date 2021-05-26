@@ -206,7 +206,8 @@ Click [Here](assets/images/readme_deployment.png) to retrieve the picture for so
    1. README: 
       - [Code-Institute-Solutions/SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
       - [Code-Institute-Solutions/readme-template](https://github.com/Code-Institute-Solutions/readme-template)
-      All this READ.md file used the above references to be created before, during, and after coding.
+
+      All this README.md file used the above references to be created before, during, and after coding.
               
    
    2. Languages, Frameworks, Libraries, and any other tools:
