@@ -204,8 +204,8 @@ Click [Here](assets/images/readme_deployment.png) to retrieve the picture for so
 
     
    1. README: 
-      *[Code-Institute-Solutions/SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
-      *[Code-Institute-Solutions/readme-template](https://github.com/Code-Institute-Solutions/readme-template)
+      - [Code-Institute-Solutions/SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+      - [Code-Institute-Solutions/readme-template](https://github.com/Code-Institute-Solutions/readme-template)
       All this READ.md file used the above references to be created before, during, and after coding.
               
    
@@ -238,7 +238,7 @@ Click [Here](assets/images/readme_deployment.png) to retrieve the picture for so
          - eb4cbf5
 
       Rodrigo Palazon received instructions from the Software Engineer
-      (and my personal friend), Ricardo Schiavetti.
+      (and his personal friend), Ricardo Schiavetti.
 
       GitHub: https://github.com/rrschiavetti
             
