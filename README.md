@@ -4,8 +4,8 @@
 [View the live project here.](https://rodrigopalazon.github.io/milestone_project_1/)
 
   The main goal of this project is to share with potential employers Rodrigo Palazon's knowledge and skills as a programmer. 
-  In my web portfolio, you can check Rodrigo Palazon's skills, CV, Certificates, social medias, and other projects that Rodrigo Palazon has already done and its source code.
-  This whole project was planned,  designed (considering responsivity), and developed by Rodrigo Palazon. 
+  In this web portfolio, you can check Rodrigo Palazon's skills, CV, Certificates, social media, and other projects that Rodrigo Palazon has already done and its source code.
+  This whole project was planned, designed (considering responsivity), and developed by Rodrigo Palazon. 
 
 ![](assets/images/am_I_responsive.png)
 
@@ -15,9 +15,9 @@
 
    - #### First Time Visitor Goals
 
-      1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Rodrigo Palazon,  whom the portfolio is about and his capabilities.
+      1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Rodrigo Palazon,  whom the portfolio is about, and his capabilities.
       2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-      3. As a First Time Visitor, I want to look for different projects created and developed by Rodrigo Palazon , his portfolio, its source code, and see if they are trusted, clean and organized. 
+      3. As a First Time Visitor, I want to look for different projects created and developed by Rodrigo Palazon, his portfolio, its source code, and see if they are trusted, cleaned, and organized. 
       4. As a First Time Visitor, I want to locate Rodrigo Palazon's social media links so I can see his behavior and thoughts as a human being, and his personality (beyond technical skills).
 
     - #### Returning Visitor Goals
@@ -37,7 +37,8 @@
         -   The Poppins font is the main font used throughout the whole website with Sans Serif as the fallback font in the case for any reason the main font is not being imported into the site correctly. Even no being a very much usable font for websites, it was styled properly in size, spacing, weight, and color to be an easily readable font respecting all the UI concepts.
 
     -   #### Imagery
-        -   Imagery is important. The rounded image of the face was designed for the potential employer to have a more clear vision to whom the portfolio belongs.
+        - Imagery is important. The rounded image of the face was designed for the potential employer to have a more clear vision to whom the portfolio belongs.
+        - The image in the Portfolio Section gives the user a brief idea of what the specific project looks like. 
 
 
 *   ### Wireframes
@@ -48,7 +49,7 @@
 
     -   My Full CV Page Mockup - [View](assets/images/cv_page_wireframe.png)
 
-  You can recognize that the layout is slightly different from each other, exactly because of the responsivity and how the elements behaves depending on the user size's screen device.
+  You can recognize that the layout is slightly different from each other, exactly because of the responsivity and how the elements behave depending on the user size's screen device.
  
  ## Features
 
@@ -67,13 +68,13 @@
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Poppins' and 'Rakkas' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control to commit from the local repository and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Gimp:](https://www.gimp.org)
@@ -92,19 +93,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-   1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Rodrigo Palazon,  whom the portfolio is about and his capabilities.
+   1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Rodrigo Palazon,  whom the portfolio is about, and his capabilities.
 
       1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page and/or content of their choice about Rodrigo Palazon.
-      2. The main page is divided in three parts, being they a Summary CV, Portfolio, and Certificates (Navigation Bar and Footer not considered in this context). 
+      2. The main page is divided into three parts, being a Summary CV, Portfolio, and Certificates (Navigation Bar and Footer not considered in this context).  
       3. The user has two options, click on the Navigation Bar or scroll down, both of which will lead to the same place, to know more about Rodrigo Palazon as a programmer.
 
    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-      1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page or content they will end up at clearly.
+      1. The site has been designed to be fluid and never to entrap the user. At the top of each page, there is a clean navigation bar, each link describes what the page or content they will end up at clearly.
       2. At the top of the main page and the "My Full CV" page there is a fixed top navigation bar to ensure the user always has somewhere to go and does not feel trapped as they get to the bottom of the page.
-      3. On the "My Full CV" Page, the options in the navigation bar changes, making easier for the user to navigate on this page.
+      3. On the "My Full CV" Page, the options in the navigation bar change, making it easier for the user to navigate on this page.
       
-   3. As a First Time Visitor, I want to look for different projects created and developed by Rodrigo Palazon , his portfolio, its source code, and see if they are trusted, clean and organized. 
+   3. As a First Time Visitor, I want to look for different projects created and developed by Rodrigo Palazon, his portfolio, its source code and see if they are trusted, cleaned, and organized. 
      
       1. Once the new visitor has read the Summary CV, they will notice the Portfolio and Certificates sections below.
       2. At the top of any page, the user is able to click on the logo, which will be directing him straight to the top of the Home page.
@@ -119,14 +120,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
    1. As a Returning Visitor, I want to find a new technical skill presented in Rodrigo Palazon's portfolio. This could be a new programming language, a new project that he has done, an open-source code that he has been involved in, an updated CV, or a new certificate.
 
-      1. This will be recognized in the Summary section when a new technical skill be learned.
+      1. This will be recognized in the Summary section when a new technical skill is learned.
       2. All the new projects will be added in the Portfolio section.
       3. All new certificates will be added in the Certificates section.
 
    2. As a Returning Visitor, I want to find the best way to get in contact with Rodrigo Palazon to be answered to any questions I might have.
 
       1. The Summary Section clearly highlights the icons of Email and differents Social Media, personal and professional.
-      2. The footer contains links to the Rodrigo Palazon's Email, LinkedIn, GitHub, Instagram and Facebook page.
+      2. The footer contains links to Rodrigo Palazon's Email, LinkedIn, GitHub, Instagram, and Facebook page.
       3. Whichever link I click, it will be open up in a new tab to ensure the user can get back to the website.
 
    3. As a Returning Visitor, I want to find a better and/or updated presentation of Rodrigo Palazon's project.
@@ -136,8 +137,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPad, iPad Pro, iPhone6, iPhone7, iPhone 8 & iPhoneX and all the Plus version of the previous mobile devices.
+-   The Website was tested on Google Chrome, Microsoft Edge, and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPad, iPad Pro, iPhone6, iPhone7, iPhone 8 & iPhoneX, and all the Plus version of the previous mobile devices.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 ### Known Bugs
@@ -154,7 +155,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/RodrigoPalazon/milestone_project_1)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+2. At the top of the Repository (not top of page), locate the "Settings" button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Main Branch".
 5. The page will automatically refresh.
@@ -165,7 +166,7 @@ The project was deployed to GitHub Pages using the following steps...
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/RodrigoPalazon/milestone_project_1)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
@@ -195,7 +196,7 @@ $ git clone https://github.com/RodrigoPalazon/milestone_project_1.git
 
 ```
 
-Click [Here](assets/images/readme_deployment.png) to retrieve picture for some of the buttons and more detailed explanations of the above process.
+Click [Here](assets/images/readme_deployment.png) to retrieve the picture for some of the buttons and more detailed explanations of the above process.
 
 ## CREDITS: 
 ---
@@ -205,7 +206,7 @@ Click [Here](assets/images/readme_deployment.png) to retrieve picture for some o
    1. README: 
       *[Code-Institute-Solutions/SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
       *[Code-Institute-Solutions/readme-template](https://github.com/Code-Institute-Solutions/readme-template)
-      All this READ.md file used the above references to be created before,during and after coding.
+      All this READ.md file used the above references to be created before, during, and after coding.
               
    
    2. Languages, Frameworks, Libraries, and any other tools:
@@ -236,7 +237,7 @@ Click [Here](assets/images/readme_deployment.png) to retrieve picture for some o
          - 19db935
          - eb4cbf5
 
-      I received instructions from the Software Engineer
+      Rodrigo Palazon received instructions from the Software Engineer
       (and my personal friend), Ricardo Schiavetti.
 
       GitHub: https://github.com/rrschiavetti
@@ -250,7 +251,7 @@ Click [Here](assets/images/readme_deployment.png) to retrieve picture for some o
 
    7. Collapsible Icon: 
    
-      For this, it was used the explanation from the official Bootstrap 4  documentation about **Accordion** as a model, and on it was made the necessary modifications    to achieve the desired result.
+      For this, it was used the explanation from the official Bootstrap 4  documentation about **Accordion** as a model, and on it was made the necessary modifications to achieve the desired result.
 
       https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 
@@ -258,7 +259,7 @@ Click [Here](assets/images/readme_deployment.png) to retrieve picture for some o
 
       https://www.w3schools.com/jquery/jquery_hide_show.asp
 
-      The example from the official documentation was used as a model to collapse and uncollapse the toggle menu. This solution was chosen because some of the item in the the toggle menu are anchor links to another part from the index.html, making the toggle menu uncollapsable by itself when some item in the menu was clicked.
+      The example from the official documentation was used as a model to collapse and uncollapse the toggle menu. This solution was chosen because some of the items in the toggle menu are anchor links to another part from the index.html, making the toggle menu not collapsable by itself when some item in the menu was clicked.
 
 
 ### Content
