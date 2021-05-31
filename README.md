@@ -148,6 +148,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - For large devices, the section "Certificates" shows the Logo of the Institution the respective certificate is from, these logos are not good well manageable.
    - This bug also creates a bigger padding-bottom for the second and third certificates (Responsive Web Design, and FullStack Developer respectively).
 
+- It was necessary to create a jQuery function to close the toggle menu when one of its items was clicked on in small devices.
+   -In this case it shoudn't be necessary to, once that the project was made using Bootstrap, and it should be work by itself. 
+
 ## Deployment
 
 ### GitHub Pages

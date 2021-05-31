@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-
 *{
     padding: 0px;
     margin: 0px;
@@ -63,7 +62,6 @@ body{
     background-color:#FFA5CB;
 }
 
-        /* ref.:   4. README.md */
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 203)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -77,9 +75,7 @@ body{
     background-size: 170% 170%;
     margin: 15px;
 }
-    /* end: ref.  4. */
-
-    /* Media Query---- NAVBAR MENU -----------*/        
+      
 @media only screen and (max-width: 992px){
     .navbar-nav{
         width: 60%;
@@ -169,8 +165,13 @@ h1{
 #personal_info #second_article h3{
     font-family: Rakkas;
     font-size: 1.2em;
-    margin-left: 3.5%;
     margin-top: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+#personal_info #second_article .container .row p:nth-child(2){
+    padding: 0 5%;
 }
 
 #second_article .col ul li{
@@ -190,9 +191,8 @@ h1{
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
 }
-    /* Media Query --- SECTION #personal_info----------------- */
-@media only screen and (min-width: 767px){
     
+@media only screen and (min-width: 767px){
     #personal_info #first_article, 
     #personal_info #second_article,
     #portfolio, #certificates{
@@ -254,7 +254,6 @@ h1{
 }
 
 /* SECTION #portfolio----------------- */
-
 #portfolio{
     background-color:#171717;
     color:#EED1E4;
@@ -317,7 +316,6 @@ h1{
     margin-left: -1em;
 }
 
-    /* ---Media Query---SECTION #portfolio-------------- */
 @media only screen and (min-width: 767px){
     #portfolio .container-fluid p{
         margin-left: .3em;
@@ -381,7 +379,6 @@ h1{
 
 #certificates #accordion .card:nth-child(even){
     background-color: inherit;
-    /* border: 2px groove #FFA5CB; */
 }
 
 .fa-caret-down{
@@ -425,8 +422,6 @@ h1{
     width: 100%;
 }
 
-    /*--Media Query----SECTION #certificates----------------- */
-
 @media only screen and (max-width: 1024px){
     #certificates .card-link img{
         display: none;
@@ -437,7 +432,6 @@ h1{
 }
 
 /* --- FOOTER ----------------------*/
-
 footer{
     background-color: #171717;
     height: auto;
@@ -466,7 +460,6 @@ footer ul li strong{
     font-size: 1.2em
 }
 
-    /*---Media Query --- FOOTER ------------------*/
 @media only screen and (min-width: 767px){
     footer{
         font-size: 1.4em;
@@ -487,7 +480,6 @@ footer ul li strong{
 }
 
 /* full_cv.html-------------------------- */
-
 #resume_full_cv_html{
     width: 100%;
     margin-top: 3em;
